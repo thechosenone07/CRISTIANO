@@ -1,3 +1,5 @@
+__mod_name__ = "Tools"
+
 __help__ = """
 
 
@@ -7,7 +9,4 @@ __help__ = """
 
 • `/gps` `<location>`*:* Get gps location.
  Example : `/gps India`
-
 """
-
-__mod_name__ = "Tools"
