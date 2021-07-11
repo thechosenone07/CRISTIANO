@@ -186,15 +186,17 @@ __help__ = """
 • When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
 *How* ❔ `:`
-• Add me in your group as admin
-• Add me in your channel as admin 
+• Add me in group as admin
+• Add me in channel as admin 
  
 *Commmands* `:`
 • `/fsub` `{channel username}` - To turn on and setup the channel.
- 💡 Do this first...
+
+ 💡 Do this first :
 • `/fsub` - To get the current settings.
-• `/fsub disable` - To turn of ForceSubscribe..
- To set again for working, use `/fsub` `{channel username}` 
+• `/fsub disable` - Turns of Force Subscribe.
+ To set again for working, use `/fsub {channel username}
+
 • `/fsub clear` - To unmute all members who muted by me.
 """
-__mod_name__ = "F Sub"
+__mod_name__ = "Force Sub"
