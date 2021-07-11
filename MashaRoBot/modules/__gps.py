@@ -27,18 +27,9 @@ async def _(event):
             ),
         )
         await event.reply(
-            "Open with: [🌏Google Maps]({})".format(gm),
+            "Open with: [🌏 Google Maps]({})".format(gm),
             link_preview=False,
         )
     except Exception as e:
         print(e)
         await event.reply("I can't find that")
-
-
-__help__ = """
-Hi I can send gps location..
-
- ❍ /gps <location>*:* Get gps location.
-"""
-
-__mod_name__ = "GPS"
