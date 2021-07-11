@@ -14,4 +14,7 @@ __help__ = """
 • `/encrypt`*:* Encrypts The Given Text
 • `/decrypt`*:* Decrypts Previously Ecrypted Text
 • `/json`*:* Get JSON info about any message replied to.
+• `/song` `<song name>`*:* Uploads the song in it's best quality available
+ Ex: `/song Faded Alan Walker`
+• `/saavn` `<song name>`*:* Download song from saavn.
 """
