@@ -81,7 +81,7 @@ I'm here to help you manage your groups! Hit Help button below to find out more 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuuRobot?startgroup=true"),
+            text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="❔ Aʙᴏᴜᴛ", callback_data="masha_"),
@@ -356,16 +356,18 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""I'm *Senkuu*, a powerful group management bot built to help you manage your group easily.
-❍ I can restrict users.
-❍ I can greet users with customizable welcome messages and even set a group's rules.
-❍ I have an advanced anti-flood system.
-❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-❍ I check for admins' permissions before executing any command and more stuffs
+            text="""I'm *Senku*, a powerful group management bot built to help you manage your group easily.
+
+• I can restrict users.
+• I can greet users with customizable welcome messages and even set a group's rules.
+• I have an advanced anti-flood system.
+• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+• I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+• I check for admins' permissions before executing any command and more stuffs
+
 \n_Senkuu's licensed under the GNU General Public License v3.0_
-Here is the [Contact My Owner](https://t.me/DroidKnight).
-If you have any question about Senkuu, let us know at @SenkuSupport.""",
+
+Have any question about Senku?, let us know at @SenkuSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
