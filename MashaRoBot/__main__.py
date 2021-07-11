@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Eʟɪsᴀ 🌟*
-`I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential.` 
+Hey hi {}, I'm *{}*!
+I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🎉", url="t.me/AndreaBetaRoBot?startgroup=true"),
+            text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuuRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ 🔖", callback_data="masha_"),
@@ -91,17 +91,27 @@ buttons = [
         InlineKeyboardButton(
             text="Sᴏᴜʀᴄᴇ 💫", callback_data="source_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/AndreaSupportChat"
+            text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/SenkuSupport"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+*Main* commands available:
+ • `/help`*:* PM's you this message.
+ • `/help` `<module name>`*:* PM's you info about that module.
+ • `/donate`*:* information on how to donate!
+ • `/settings`*:*
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
+"""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+ You can support the project via [Paypal](ko-fi.com/FtConan) or by contacting @DroidKnight \
+ Supporting isnt always financial! \
+ Those who cannot provide monetary support are welcome to help us develop the bot at @SenkuDev."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -346,22 +356,22 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""  I'm *Andrea Beta*, a powerful group management bot built to help you manage your group easily.
-                 ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 ❍ I have an advanced anti-flood system.
-                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [Contact My Owner](https://t.me/TERA_BAAP_VILLAIN_XD).
-                 If you have any question about Masha, let us know at @AndreaSupportChat.""",
+            text="""I'm *Senkuu*, a powerful group management bot built to help you manage your group easily.
+❍ I can restrict users.
+❍ I can greet users with customizable welcome messages and even set a group's rules.
+❍ I have an advanced anti-flood system.
+❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+❍ I check for admins' permissions before executing any command and more stuffs
+\n_Masha's licensed under the GNU General Public License v3.0_
+Here is the [Contact My Owner](https://t.me/DroidKnight).
+If you have any question about Masha, let us know at @SenkuSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="🔙", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -381,14 +391,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *Andrea Beta*
-                 \nHere is the [Source Code](https://t.me/TERA_BAAP_VILLAIN_XD) .""",
+            text=""" Hi.. I'm *Senkuu*
+                 \nHere is the [Source Code](https://github.com/FtSasaki/SenkuuRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="🔙", callback_data="source_back")
                  ]
                 ]
             ),
