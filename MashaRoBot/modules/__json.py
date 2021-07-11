@@ -51,10 +51,3 @@ async def _(event):
             await event.delete()
     else:
         await event.reply("`{}`".format(the_real_message))
-
-
-__help__ = """
-• `/json`*:* Get JSON info about any message replied to.
-"""
-
-__mod_name__ = "JSON"
