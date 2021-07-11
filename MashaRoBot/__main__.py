@@ -84,12 +84,12 @@ buttons = [
             text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuuRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ 🔖", callback_data="masha_"),
-        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="❔ Aʙᴏᴜᴛ", callback_data="masha_"),
+        InlineKeyboardButton(text="Hᴇʟᴘ 🔖", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="Sᴏᴜʀᴄᴇ 💫", callback_data="source_"),
+            text="ℹ️ Sᴏᴜʀᴄᴇ", callback_data="source_"),
         InlineKeyboardButton(
             text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/SenkuSupport"
         ),
