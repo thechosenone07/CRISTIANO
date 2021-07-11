@@ -22,4 +22,6 @@ __help__ = """
 *Secure* :
 • `/encrypt`*:* Encrypts The Given Text
 • `/decrypt`*:* Decrypts Previously Ecrypted Text
+
+• `/json`*:* Get JSON info about any message replied to.
 """
