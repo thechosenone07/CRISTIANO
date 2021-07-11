@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey there, I'm *Senkuu*!
-I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.co/102/thumb-1920-1027254.jpg)
+I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
 """
 
 buttons = [
@@ -103,8 +103,8 @@ HELP_STRINGS = """
  • `/help` `<module name>`*:* PM's you info about that module.
  • `/donate`*:* information on how to donate!
  • `/settings`*:*
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   - in PM: will send you your settings for all supported modules[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
+   - in a group: will redirect you to pm, with all that chat's settings.
 """
 
 
