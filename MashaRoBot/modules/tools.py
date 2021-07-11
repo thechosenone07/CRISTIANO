@@ -34,6 +34,3 @@ __help__ = """
 • `/covid`*:* To Get Global Stats of Covid.
 • `/covid` `<COUNTRY>`*:* To Get Stats of A Single Country.
 """
-
-__mod_name__ = "COVID"
-"""
