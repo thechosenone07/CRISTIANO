@@ -909,7 +909,7 @@ async def fex(event):
   print(e)
      
 
-__mod_name__ = "FEDERATION"
+__mod_name__ = "Federations"
 
 __help__ = """
 Ah, group management. It's all fun and games, until you start getting spammers in, and you need to ban them. Then you need to start banning more, and more, and it gets painful.
