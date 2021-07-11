@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey hi {}, I'm *{}*!
+Hey there, I'm *Senkuu*!
 I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
 """
 
@@ -363,7 +363,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
 ❍ I check for admins' permissions before executing any command and more stuffs
-\n_Masha's licensed under the GNU General Public License v3.0_
+\n_Senkuu's licensed under the GNU General Public License v3.0_
 Here is the [Contact My Owner](https://t.me/DroidKnight).
 If you have any question about Masha, let us know at @SenkuSupport.""",
             parse_mode=ParseMode.MARKDOWN,
