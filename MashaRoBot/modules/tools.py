@@ -7,7 +7,7 @@ __help__ = """
 
 • `/cs`*:* Latest live scores from cricinfo
 
-• `/imdb` `<movie/seires name>`*:* Get full info about a movie & series with [imdb.com](https://m.imdb.com)
+• `/imdb` `<movie/seires name>`*:* Get full info about a movie & series with `imdb.com`
 
 *Zipper* :
 • `/zip`*:* reply to a telegram file to compress it in .zip format
@@ -15,7 +15,7 @@ __help__ = """
 
 *Weather* :
 • `/weather` `<city>`*:* Get weather info in a particular place.
-• `/wttr` `<city>`*:* Advanced weather module, usage same as /weather
+• `/wttr` `<city>`*:* Advanced weather module, usage same as `/weather`
  Eg. `/wttr moon`*:* Get the current status of moon
 
 *Secure* :
@@ -32,5 +32,5 @@ __help__ = """
 
 *COVID* :
 • `/covid`*:* To Get Global Stats of Covid.
-• `/covid` `<COUNTRY>`*:* To Get Stats of A Single Country.
+• `/covid` `<country>`*:* To Get Stats of A Single Country.
 """
