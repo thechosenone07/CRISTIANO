@@ -5,12 +5,12 @@ from MashaRoBot import pbot
 from MashaRoBot.pyrogramee.errors import capture_err
 
 
-__mod_name__ = "GITHHUB"
+__mod_name__ = "GitHub"
 
 __help__ = """
 I will give information about github profile 
 
- ❍ /github <username>*:* Get information about a GitHub user.
+• `/github` `<username>`*:* Get info about a GitHub user.
 """
 
 @pbot.on_message(filters.command('github'))
