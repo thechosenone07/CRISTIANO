@@ -8,5 +8,9 @@ __help__ = """
 • `/imdb` `<movie/seires name>`*:* Get full info about a movie & series with [imdb.com](https://m.imdb.com)
 • `/zip`*:* reply to a telegram file to compress it in .zip format
 • `/unzip`*:* reply to a telegram file to decompress it from the .zip format
+• `/weather` `<city>`*:* Get weather info in a particular place.
+• `/wttr` `<city>`*:* Advanced weather module, usage same as /weather
+ Eg. `/wttr moon*:* Get the current status of moon
+
 
 """
