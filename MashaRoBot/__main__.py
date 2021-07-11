@@ -365,7 +365,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
 ❍ I check for admins' permissions before executing any command and more stuffs
 \n_Senkuu's licensed under the GNU General Public License v3.0_
 Here is the [Contact My Owner](https://t.me/DroidKnight).
-If you have any question about Masha, let us know at @SenkuSupport.""",
+If you have any question about Senkuu, let us know at @SenkuSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
