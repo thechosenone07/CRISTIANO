@@ -1,7 +1,6 @@
 __mod_name__ = "Heroku"
 
 __help__ = """
-
  ╔ *Senkuu Core:*
  ╠ *Owner only*
  ╠ `/send` `<module name>`*:* Send module
