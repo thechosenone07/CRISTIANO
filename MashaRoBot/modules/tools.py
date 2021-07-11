@@ -3,9 +3,9 @@ __mod_name__ = "Tools"
 __help__ = """
 • `/country` `<country name>`*:* Gathering info about given *country*
 • `/gps` `<location>`*:* Get gps location.
+ Example : `/gps India`
 
 • `/cs`*:* Latest live scores from cricinfo
- Example : `/gps India`
 
 • `/imdb` `<movie/seires name>`*:* Get full info about a movie & series with [imdb.com](https://m.imdb.com)
 
