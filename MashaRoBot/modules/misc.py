@@ -98,7 +98,7 @@ __help__ = """
 *Currency converter:* 
  • `/cash`*:* currency converter
 Example:
- `/cash` 1 USD INR`  
+ `/cash 1 USD INR`  
       _OR_
  `/cash 1 usd inr`
 Output: `1.0 USD = 75.505 INR`
