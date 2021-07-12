@@ -47,7 +47,8 @@ Should you be forking this repo then do not forget to star it - <img alt="GitHub
 
 # Host :
 The easiest way to deploy this Bot :
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/FtSasaki/SenkuRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="100" height="30"/></a></p>
+<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
 
 ## Note:
 Future updates on the code have been moved to a seperate repository that is now private and away from the toxic, ungrateful and cancerous marie community, we believe we have burned out blood enough for the leecher community that just wants to take, debate and laugh while bringing nothing progressive back to the repository, in lieu of the same we are now closed sourced. 
