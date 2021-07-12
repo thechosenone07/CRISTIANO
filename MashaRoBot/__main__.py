@@ -85,13 +85,13 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="❔ Aʙᴏᴜᴛ", callback_data="masha_"),
-        InlineKeyboardButton(text="Hᴇʟᴘ 🔖", callback_data="help_back"),
+        InlineKeyboardButton(text="Hᴇʟᴘ 📕", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="ℹ️ Sᴏᴜʀᴄᴇ", callback_data="source_"),
+            text="📢 News", url="t.me/SenkuNews"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/SenkuSupport"
+            text="Sᴜᴘᴘᴏʀᴛ 🆘", url="https://t.me/SenkuSupport"
         ),
     ],
 ]
@@ -105,6 +105,7 @@ HELP_STRINGS = """
  • `/settings`*:*
    - in PM: will send you your settings for all supported modules[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
    - in a group: will redirect you to pm, with all that chat's settings.
+
 """
 
 
