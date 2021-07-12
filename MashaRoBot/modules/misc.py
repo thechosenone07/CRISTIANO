@@ -80,6 +80,7 @@ def markdown_help(update: Update, context: CallbackContext):
         return
     markdown_help_sender(update)
 
+#Wallpaper Module Is Powered by Wallpaper Abyss (wall.alphacoders.com) 
 
 __help__ = """
 *Available commands:*
