@@ -393,9 +393,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. I'm *Senkuu*
-                 \nHere is the [Source Code](https://github.com/FtSasaki/SenkuuRobot) .""",
+                 \nHere is the [Source Code](https://github.com/FtSasaki/SenkuRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=False,
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
