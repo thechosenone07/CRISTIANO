@@ -195,7 +195,7 @@ __help__ = """
  💡 Do this first :
 • `/fsub` - To get the current settings.
 • `/fsub disable` - Turns of Force Subscribe.
- To set again for working, use `/fsub {channel username}
+ To set again for working, use `/fsub {channel username}`
 
 • `/fsub clear` - To unmute all members who muted by me.
 """
