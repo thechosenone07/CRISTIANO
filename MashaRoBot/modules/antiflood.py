@@ -419,7 +419,7 @@ This will mute users if they send more than 10 messages in a row, bots are ignor
  `1w` = 1 week
  """
 
-__mod_name__ = "Anti-Flood"
+__mod_name__ = "Anti Flood"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.group, check_flood
