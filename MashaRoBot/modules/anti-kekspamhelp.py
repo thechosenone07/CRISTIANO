@@ -1,4 +1,4 @@
-__mod_name__ = "AntiSpam"
+__mod_name__ = "Anti-Spam"
 
 __help__ = """
 *Admins only:*
