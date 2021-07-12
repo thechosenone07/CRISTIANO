@@ -49,11 +49,6 @@ Should you be forking this repo then do not forget to star it - <img alt="GitHub
 The easiest way to deploy this Bot :
 <p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-## Note:
-Future updates on the code have been moved to a seperate repository that is now private and away from the toxic, ungrateful and cancerous marie community, we believe we have burned out blood enough for the leecher community that just wants to take, debate and laugh while bringing nothing progressive back to the repository, in lieu of the same we are now closed sourced. 
-If you believe this is "illegal or is violating the GPLv3" license, I request you come to @OnePunchSupport on telegram WITH your lawyer to discuss the same.
-Good day! 
-
 ## Credits 📍
 * Well, it's all in the commit history
 Feel free to open pull requests should any be missing.
