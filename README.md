@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
+  <img src="https://telegra.ph/file/91c05dae036b1aa75099a.jpg">
 </p>
 
 # Andrea Beta Robot
