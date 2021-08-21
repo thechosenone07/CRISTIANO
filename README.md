@@ -15,9 +15,9 @@
   <img src="https://telegra.ph/file/91c05dae036b1aa75099a.jpg">
 </p>
 
-# Andrea Beta Robot
-Me On Telegram [Andrea Beta  ](https://t.me/AndreaBetaRoBot)
-This is just a demo bot.. Don't try to add to your group.. Create your own bot 
+# M A N 👽
+Me On Telegram [ J A R V I S ](https://t.me/J_A_R_V_l_S)
+TELE GROUP MANAGING BOT ... as always its something more.. !!
 ## How To Host
 The easiest way to deploy this Bot
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Mr-Dark-Prince/MashaRoBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
