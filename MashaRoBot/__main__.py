@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Eʟɪsᴀ 🌟*
+`Hellow, I'm ` *CRISTIANO 🌟*
 `I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🎉", url="t.me/AndreaBetaRoBot?startgroup=true"),
+            text="➕ ADD ME ➕", url="t.me/cristianoprobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ 🔖", callback_data="masha_"),
@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(
             text="Sᴏᴜʀᴄᴇ 💫", callback_data="source_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/AndreaSupportChat"
+            text="⚙️ Developer ⚙️", url="https://t.me/J_A_R_V_l_S"
         ),
     ],
 ]
@@ -338,7 +338,7 @@ def help_button(update, context):
         # query.message.delete()
 
     except BadRequest:
-        pass
+        pass 
 
 
 @run_async
@@ -346,16 +346,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""  I'm *Andrea Beta*, a powerful group management bot built to help you manage your group easily.
+            text="""  I'm *C R I S T I A N O 🌟*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [Contact My Owner](https://t.me/TERA_BAAP_VILLAIN_XD).
-                 If you have any question about Masha, let us know at @AndreaSupportChat.""",
+                 \n_CRISTIANO's licensed under the GNU General Public License v3.0_
+                 Here is the [Contact My Owner](https://t.me/J_A_R_V_l_S).
+                 If you have any question about Cristiano, let us know at @J_A_R_V_l_S.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *Andrea Beta*
-                 \nHere is the [Source Code](https://t.me/TERA_BAAP_VILLAIN_XD) .""",
+            text=""" Hi.. I'm *C R I S T I A N O*
+                 \nHere is the [Source Code](https://t.me/orthod_irunna_sankadam_varum/2) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -482,7 +482,7 @@ def send_settings(chat_id, user_id, user=False):
                 parse_mode=ParseMode.MARKDOWN,
             )
 
-    else:
+    else: 
         if CHAT_SETTINGS:
             chat_name = dispatcher.bot.getChat(chat_id).title
             dispatcher.bot.send_message(
